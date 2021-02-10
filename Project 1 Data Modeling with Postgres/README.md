@@ -11,6 +11,12 @@ This process was done by using an ETL pipeline written in Python language, and t
 This repository shows an ETL-pipeline to create tables, and load the data of JSON files into the database.<br>
 The database we created with these pipelines can be used to run queries and get an understanding on how Sparkify's app is used by the users.</p>
 
+## Pre-requisites/Installation
+- Python 3.6
+- PostgreSQL
+- psycopg2 - Python-PostgreSQL Database Adapter([install from here](https://pypi.org/project/psycopg2/#files))
+- sql_queries - Build simple SQL queries fast and clean([install from here](https://pypi.org/project/sql-queries/))
+
 ## Schema
 
 ![ER diagram for Sparkfy schema](https://user-images.githubusercontent.com/51218559/103168751-41603980-4879-11eb-938f-e5186d41779f.png)
