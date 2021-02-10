@@ -7,6 +7,11 @@ The task as a data engineer is to build an ETL pipeline that extracts their data
 
 This repository shows an ETL pipeline that extracts their data from S3, process the data into analytics tables using Spark, and load them back into S3. To do this, we have deployed this Spark process on a cluster using AWS.
 
+## Pre-requisites/Installation
+- Python 3.6
+- pyspark - Apache Spark Python API([install from here](https://pypi.org/project/pyspark/))
+- AWS account (access key, secret access key)
+
 ### Schema
 #### Fact Table
 **1.songplays**  -  records in log data associated with song plays i.e. records with page NextSong
