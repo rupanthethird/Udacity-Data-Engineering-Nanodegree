@@ -11,6 +11,14 @@ as well as a directory with JSON metadata on the songs in their app.
 This repository shows an ETL pipeline that extracts their data from S3, stages them in Redshift, and transforms data into a set of dimensional tables.
 The Redshift tables you create with these pipelines can be used to run queries and get an understanding on how Sparkify's app is used by its users.
 
+## Pre-requisites/Installation
+- Python 3.6
+- PostgreSQL
+- psycopg2 - Python-PostgreSQL Database Adapter([install from here](https://pypi.org/project/psycopg2/#files))
+- boto3 - The AWS SDK for Python([install from here](https://pypi.org/project/boto3/))
+- sql_queries - Build simple SQL queries fast and clean([install from here](https://pypi.org/project/sql-queries/))
+- AWS account (access key, secret access key)
+
 ## Schema
 
 ![ER diagram for Sparkfy schema - Redshift](https://user-images.githubusercontent.com/51218559/104693095-6c3cff80-574c-11eb-85be-05c1dc3df4a9.jpeg)
