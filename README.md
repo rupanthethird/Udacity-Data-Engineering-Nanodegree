@@ -27,7 +27,7 @@ This project is to learn building an ETL pipeline that extracts their data from 
 This project is to learn building an ETL pipeline that extracts their data from S3, process the data into analytics tables using Spark, and load them back into S3. To do this, we have deployed this Spark process on a cluster using AWS.
 
 ### Project 5: Data Pipelines with Airflow
-in progress
+This project is to learn building automated ETL pipelines that extract data from S3, process the data into analytics tables, and load them on Redshift using custom operators on Apache Airflow to run hourly.
 
 ### Project 6: Data Engineering Capstone
 in progress
