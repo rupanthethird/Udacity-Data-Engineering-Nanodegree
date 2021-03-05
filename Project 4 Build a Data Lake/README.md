@@ -72,8 +72,9 @@ NOTE: Make sure the region is set to "us-west-2" to match the region of S3 bucke
 - Load the data back to the created S3 bucket.
 
 ## Project Files
-- etl.py - Python script to execute the queries to extract JSON data from the S3 bucket to process using Spark, and writes them back to S3
-- dl.cfg - Configuration file with information about AWS key pairs (*Make sure not to include quotations for the key pairs to avoid errors)
-- README.md - this file
-##### How to Run:
-Execute ETL process by running etl.py.
+- `etl.py` - Python script to execute the queries to extract JSON data from the S3 bucket to process using Spark, and writes them back to S3
+- `dl.cfg` - Configuration file with information about AWS key pairs (*Make sure not to include quotations for the key pairs to avoid errors)
+- `README.md` - this file
+
+## How to Run
+Execute ETL process by running `etl.py`.

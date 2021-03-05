@@ -72,15 +72,19 @@ The database we created with these pipelines can be used to run queries and get 
 
 ## Files
 
-- create_tables.py - Python script to drop and create tables. It is used to reset tables before each time running the ETL scripts.
-- etl.ipynb - Jupyter Notebook which reads and processes a single file from song_data and log_data, and loads the data into the tables with detailed instructions on each process.
-- etl.py - Python script which reads and processes files from song_data and log_data and loads them into the tables.
-- test.ipynb - Jupyter Notebook to display the first few rows of each table to check the database.
-- README.md - This file.
-- sql_queries.py - Python script which contains all of sql queries, and is imported into the last three files above.
-- data - Folder containing sample data that is a subset of the Million Song Dataset.</p>
+- `create_tables.py` - Python script to drop and create tables. It is used to reset tables before each time running the ETL scripts.
+- `etl.py` - Python script which reads and processes files from song_data and log_data and loads them into the tables.
+- `sql_queries.py` - Python script which contains all of sql queries, and is imported into the last three files above.
+- `etl.ipynb` - Jupyter Notebook which reads and processes a single file from song_data and log_data, and loads the data into the tables with detailed instructions on each process.
+- `test.ipynb` - Jupyter Notebook to display the first few rows of each table to check the database.
+- `data` - Folder containing sample data that is a subset of the Million Song Dataset.
+- `README.md` - This file.
 
-### Example Query
+## How to run
+1. Execute table creations by running `create_tables.py`
+1. Execute ELT processes by running `etl.py`
+
+## Example Query
 
 The following query on the database would give you the answer to the question of how many distinct users listened to the songs of the artist "Maroon5" with their app:
 

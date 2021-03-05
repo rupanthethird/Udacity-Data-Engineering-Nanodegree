@@ -128,14 +128,15 @@ NOTE: Make sure the region is set to "us-west-2" to match the region of S3 bucke
 
 
 ## Files
-- dhw.cfg - Configuration file with information about Redshift cluster, IAM role, and S3.
-- create_tables.py - Python script to drop tables (if exists) and create tables.
-- etl.py - Python script to execute queries to extract JSON data from the S3 bucket and ingest them into Redshift tables.
-- sql_queries.py - Python script that contains a set of SQL queries to DROP, CREATE, and INSERT tables accordingly with the schema shown above.
-- README.me - this file
-##### How to Run:
-1. Create tables by running create_tables.py.
-2. Execute ETL process by running etl.py.
+- `dhw.cfg` - Configuration file with information about Redshift cluster, IAM role, and S3.
+- `create_tables.py` - Python script to drop tables (if exists) and create tables.
+- `etl.py` - Python script to execute queries to extract JSON data from the S3 bucket and ingest them into Redshift tables.
+- `sql_queries.py` - Python script that contains a set of SQL queries to DROP, CREATE, and INSERT tables accordingly with the schema shown above.
+- `README.md` - this file
+
+## How to Run:
+1. Create tables by running `create_tables.py`.
+2. Execute ETL process by `running etl.py`.
 
 ## Example Query to run on Redshift console
 The following query on Redshift console would give you the answer to the question of how many distinct users listened to the songs of the artist "Maroon5" with their app:
