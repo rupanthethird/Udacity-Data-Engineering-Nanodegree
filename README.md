@@ -30,4 +30,4 @@ This project is to learn building an ETL pipeline that extracts their data from 
 This project is to learn building automated ETL pipelines that extract data from S3, process the data into analytics tables, and load them on Redshift using custom operators on Apache Airflow to run hourly.
 
 ### Project 6: Data Engineering Capstone
-in progress
+Design own project by combining knowledge this program has provided. 
